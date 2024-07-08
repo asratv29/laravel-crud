@@ -1,0 +1,44 @@
+/* Form container */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  /* Form inputs */
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* Form submit button */
+  .login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .login-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /* Form validation error */
+  .login-form .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  /* Form success message */
+  .login-form .success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+  }
